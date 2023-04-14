@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <script defer type="module" src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Learning</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="main-header">Learning</h1>
+    </header>
+    <section id="test">
+      <div class="test1"></div>
+    </section>
+    <!-- CALCULATOR -->
+    <section id="calculator-section">
+      <h2 class="section-header">section 1: Calculator</h2>
+      <div class="calculator-container">
+        <div class="display">
+          <p id="display-scr" class="display-scr">0</p>
+        </div>
+        <div class="buttons-container">
+          <button type="button" class="btn" id="c">c</button>
+          <button type="button" class="btn" data-set="+" id="addition">
+            +
+          </button>
+          <button type="button" class="btn" data-set="-" id="subtract">
+            -
+          </button>
+          <button type="button" class="btn" data-set="*" id="multiply">
+            *
+          </button>
+          <button type="button" class="btn" data-set="1" id="one">1</button>
+          <button type="button" class="btn" data-set="2" id="two">2</button>
+          <button type="button" class="btn" data-set="3" id="three">3</button>
+          <button type="button" class="btn" data-set="4" id="four">4</button>
+          <button type="button" class="btn" data-set="5" id="five">5</button>
+          <button type="button" class="btn" data-set="6" id="six">6</button>
+          <button type="button" class="btn" data-set="7" id="seven">7</button>
+          <button type="button" class="btn" data-set="8" id="eight">8</button>
+          <button type="button" class="btn" data-set="9" id="nine">9</button>
+          <button type="button" class="btn" data-set="0" id="zero">0</button>
+          <button type="button" class="btn" data-set="/" id="division">
+            /
+          </button>
+          <button type="button" class="btn" data-set="." id="dot">.</button>
+          <button type="button" class="btn" data-set="=" id="equals">=</button>
+        </div>
+      </div>
+    </section>
+    <!-- TIK-TAK-TOE -->
+    <section id="tik-tak-toe--section">
+      <h2 class="section-header">section 2: tik-tak-toe</h2>
+      <div class="tik-tak-toe--container">
+        <div class="tik-tak-toe-field" id="1"></div>
+        <div class="tik-tak-toe-field" id="2"></div>
+        <div class="tik-tak-toe-field" id="3"></div>
+        <div class="tik-tak-toe-field" id="4"></div>
+        <div class="tik-tak-toe-field" id="5"></div>
+        <div class="tik-tak-toe-field" id="6"></div>
+        <div class="tik-tak-toe-field" id="7"></div>
+        <div class="tik-tak-toe-field" id="8"></div>
+        <div class="tik-tak-toe-field" id="9"></div>
+        <div class="winner-container hidden">
+          <p class="winner-text"></p>
+        </div>
+      </div>
+      <div class="tik-tak-top--buttons">
+        <button class="btn-restart" id="restart-btn">new game</button>
+      </div>
+    </section>
+    <!-- PRECISION GAME -->
+    <section id="precision-game--container">
+      <h2 class="section-header">section 3: precision game</h2>
+      <div class="game-container">
+        <div class="game-start">
+          <button class="btn-start">start</button>
+          <button class="btn-restart--PG hidden">restart</button>
+        </div>
+        <div class="game-wait"></div>
+        <div class="game-body hidden">
+          <div class="block-1 block"></div>
+          <div class="block-2 block"></div>
+          <div class="block-3 block"></div>
+          <div class="block-4 block"></div>
+          <div class="block-5 block"></div>
+          <div class="block-6 block"></div>
+          <div class="block-7 block"></div>
+          <div class="block-8 block"></div>
+          <div class="block-9 block"></div>
+          <div class="game-over hidden">game over</div>
+        </div>
+        <div class="game-finnish">
+          <div class="finnish hidden">end</div>
+        </div>
+      </div>
+    </section>
+    <!-- REFLEX GAME -->
+    <section id="reflex-game--container">
+      <h2 class="section-header">section 4: reflex game</h2>
+      <div class="reflex-game-container">
+        <div class="reflex-game--display">0.000</div>
+        <button class="reflex-game--btn start">start</button>
+        <button class="reflex-game--btn stop hidden">stop</button>
+      </div>
+    </section>
+  </body>
+</html>

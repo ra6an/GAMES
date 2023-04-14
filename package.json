@@ -1,0 +1,11 @@
+{
+  "name": "games",
+  "version": "1.0.0",
+  "description": "tic-tac-toe, precision game, reflex game and calculator",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ra6an",
+  "license": "ISC"
+}
